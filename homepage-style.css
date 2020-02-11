@@ -1,0 +1,28 @@
+body{
+    background-color:#5da0c2 ; 
+}
+
+#main-header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 30px;
+    padding: 3px;
+    background-color: cornsilk;
+}
+
+#sub-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: darkkhaki;
+    text-align: center;
+    line-height: 10em;
+}
+
+#home-options{
+    list-style: none;
+    text-align: center;
+    background-color: gainsboro;
+    font-size: 20px;
+    margin: 30px;
+}
