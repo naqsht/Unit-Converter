@@ -8,20 +8,20 @@
     <body>
         
 
-        <header id="main-header">
+        <header id="mainHeader">
             <h1>Unit Converter</h1>
         </header>
-        <header id="length-header">
+        <header id="lengthHeader">
             <h2>Length</h2>
         </header>
 
         <section>
-            <article class="from-heading">
+            <article class="fromHeading">
                 <div>
 
-                    <label for="length-from">From</label>
+                    <label for="lengthFrom">From</label>
 
-                    <select id="length-from">
+                    <select id="lengthFrom">
                         <option value="metre">Metre</option>
                         <option value="centimetre">Centimetre</option>
                         <option value="kilometre">Kilometre</option>
@@ -29,22 +29,19 @@
                         <option value="foot">Foot</option>
                         <option value="yard">Yard</option>
                         <option value="mile">Mile</option>
-                        <option value="millimetre">Millimetre</option>
-                        <option value="micrometre">Micrometre</option>
-                        <option value="nanometre">Nanometre</option>
                     </select>
                     
-                    <input type="number" name="length-input" id="length_Value" oninput="">
+                    <input type="number" name="lengthInput" id="lengthValue">
                     
                     
 
                 </div>        
             </article>
 
-            <article class="to-heading">
+            <article class="toHeading">
                 <div>
-                    <label for="length-to">To</label>
-                    <select id="length-to">
+                    <label for="lengthTo">To</label>
+                    <select id="lengthTo">
                         <option value="metre">Metre</option>
                         <option value="centimetre">Centimetre</option>
                         <option value="kilometre">Kilometre</option>
@@ -52,17 +49,13 @@
                         <option value="foot">Foot</option>
                         <option value="yard">Yard</option>
                         <option value="mile">Mile</option>
-                        <option value="millimetre">Millimetre</option>
-                        <option value="micrometre">Micrometre</option>
-                        <option value="nanometre">Nanometre</option>
                     </select>
                 </div>
-                <output for="length-value"></output>
             </article>
-
-            <article class="length-result">
-                
-            </article>
+            
+            <button type="button" id="calculate" onclick="result=length_converter();">Calculate</button>
+            <p id="message"></p>
+            
 
         </section>
     </body>
