@@ -2,5 +2,56 @@
 <html>
     <head>
         <title>Temperature Converter</title>
+        <link rel="stylesheet" href="temperature-style.css">
     </head>
+
+
+    <body>
+        
+
+        <header id="mainHeader">
+            <h1>Unit Converter</h1>
+        </header>
+        <header id="lengthHeader">
+            <h2>Temperature</h2>
+        </header>
+
+        <section>
+            <article class="fromHeading">
+                <div>
+
+                    <label for="tempFrom" id="tempFromHeader">From</label>
+
+                    <select id="tempFrom">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                    
+                    <input type="number" name="tempInput" id="tempValue">
+                    
+                    
+
+                </div>        
+            </article>
+
+            <article class="toHeading">
+                <div>
+                    <label for="tempTo" id="tempToHeader">To</label>
+                    <select id="tempTo">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </article>
+            
+            <button type="button" id="calculate" onclick="result=temperature_converter();">Calculate</button>
+            <p id="message"></p>
+            
+
+        </section>
+    </body>
+    <script src="temperature-convert.js"></script>
+
 </html>

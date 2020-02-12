@@ -2,5 +2,62 @@
 <html>
     <head>
         <title>Weight Converter</title>
+        <link rel="stylesheet" href="weight-style.css">
     </head>
+
+
+    <body>
+        
+
+        <header id="mainHeader">
+            <h1>Unit Converter</h1>
+        </header>
+        <header id="lengthHeader">
+            <h2>Weight</h2>
+        </header>
+
+        <section>
+            <article class="fromHeading">
+                <div>
+
+                    <label for="weightFrom" id="weightFromHeader">From</label>
+
+                    <select id="weightFrom">
+                        <option value="gram">Gram</option>
+                        <option value="kilogram">Kilogram</option>
+                        <option value="tonne">Tonne</option>
+                        <option value="imperialtonne">Imperial Tonne</option>
+                        <option value="pound">Pound</option>
+                        <option value="ounce">Ounce</option>
+                    </select>
+                    
+                    <input type="number" name="weightInput" id="weightValue">
+                    
+                    
+
+                </div>        
+            </article>
+
+            <article class="toHeading">
+                <div>
+                    <label for="weightTo" id="weightToHeader">To</label>
+                    <select id="weightTo">
+                        <option value="gram">Gram</option>
+                        <option value="kilogram">Kilogram</option>
+                        <option value="tonne">Tonne</option>
+                        <option value="imperialtonne">Imperial Tonne</option>
+                        <option value="pound">Pound</option>
+                        <option value="ounce">Ounce</option>
+                    </select>
+                </div>
+            </article>
+            
+            <button type="button" id="calculate" onclick="result=weight_converter();">Calculate</button>
+            <p id="message"></p>
+            
+
+        </section>
+    </body>
+    <script src="weight-convert.js"></script>
+
 </html>

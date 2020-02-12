@@ -1,0 +1,12 @@
+body{
+    background-color:#5da0c2 ; 
+}
+
+#mainHeader{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 30px;
+    padding: 3px;
+    background-color: cornsilk;
+}
