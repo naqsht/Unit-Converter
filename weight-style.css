@@ -1,5 +1,5 @@
 body{
-    background-color:#5da0c2 ; 
+    background-image: url('bg.jpg');
 }
 
 #mainHeader{
@@ -9,4 +9,54 @@ body{
     margin: 30px;
     padding: 3px;
     background-color: cornsilk;
+}
+
+
+#lengthHeader{
+
+}
+
+
+#lengthFromHeader{
+
+}
+
+
+#lengthFrom{
+
+}
+
+
+#lengthValue{
+
+}
+
+
+#lengthToHeader{
+
+}
+
+
+#lengthTo{
+
+}
+
+
+#calculate{
+
+}
+
+
+#message{
+
+}
+
+
+#home-link{
+
+}
+
+
+#weight-link{
+
 }

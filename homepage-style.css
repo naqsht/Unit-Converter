@@ -1,6 +1,7 @@
 body{
-    background-color:#5da0c2 ; 
+    background-image: url('bg.jpg');
 }
+
 
 #main-header{
     text-align: center;
@@ -11,18 +12,58 @@ body{
     background-color: cornsilk;
 }
 
+
 #sub-header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    background-color: darkkhaki;
     text-align: center;
-    line-height: 10em;
+    padding: 30px;
 }
+
 
 #home-options{
     list-style: none;
     text-align: center;
-    background-color: gainsboro;
     font-size: 20px;
     margin: 30px;
+    border-color: black;
+    border: 1px;
+}
+
+
+#length-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+
+#weight-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+#temp-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    border-color: black;
+}
+
+a:hover, a:active{
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:14px 25px;
+    border-color:black;
+
 }

@@ -1,5 +1,5 @@
 body{
-    background-color:#5da0c2 ; 
+    background-image: url('bg.jpg');
 }
 
 #mainHeader{
@@ -12,25 +12,77 @@ body{
 }
 
 #lengthHeader{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 
+}
+
+.fromHeading{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
 #lengthFromHeader{
-
-}
-
-#lengthToHeader{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 
 }
 
 #lengthFrom{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#lengthValue{
 
 }
+
+.toHeading{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#lengthToHeader{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
 
 #lengthTo{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 
 }
 
+
 #message{
+	text-align: center;
+    font-size: 20px;
     
+}
+
+#calculate{
+	text-align: center;
+    font-size: 20px;
+}
+
+.button{
+	text-align:center;
+}
+
+#home-options{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    border-color: black;
+    border: 1px;
 }
