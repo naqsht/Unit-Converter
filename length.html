@@ -9,16 +9,15 @@
     <body>
         
 
-        <header id="mainHeader">
+        <header class="mainHeader">
             <h1>Unit Converter</h1>
         </header>
-        <header id="lengthHeader">
+        <header class="lengthHeader">
             <h2>Length</h2>
         </header>
 
-        <section>
+        <section class="tofromDisplay">
             <article class="fromHeading">
-                <div>
 
                     <label for="lengthFrom" id="lengthFromHeader">From</label>
 
@@ -54,16 +53,18 @@
                 </div>
             </article>
             
-            <button type="button" id="calculate" onclick="result=length_converter();">Calculate</button>
-            <p id="message"></p>
+            <button type="button" id="calculate" onclick="length_converter();">Calculate</button>
+            <div class="boxed">
+                <p id="message"></p>
+            </div>
             
 
         </section>
 
-        <ul id="home-options">
-            <li><a href="homepage.html" id="home-link">Home</a></li><br>
-            <li><a href="weight.html" id="weight-link">Weight</a></li><br>
-            <li><a href="temperature.html" id="temp-link">Temperature</a></li>
+        <ul class="homeOptions">
+            <li><a href="homepage.html" id="homeLink">Home</a></li><br>
+            <li><a href="weight.html" id="weightLink">Weight</a></li><br>
+            <li><a href="temperature.html" id="tempLink">Temperature</a></li>
         </ul>
 
     </body>

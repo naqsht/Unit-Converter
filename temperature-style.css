@@ -1,12 +1,99 @@
 body{
     background-image: url('bg.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#mainHeader{
+.mainHeader{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     margin: 30px;
     padding: 3px;
     background-color: cornsilk;
+}
+
+.tempHeader{
+	text-align: center;
+    font-size: 20px;
+}
+
+.tofromDisplay{
+	position: relative;
+    bottom: -20px;
+}
+
+.fromHeading{
+
+}
+
+#tempFromHeader{
+	text-align: center;
+    font-size: 16px;
+}
+
+#tempFrom{
+	text-align: center;
+    font-size: 16px;
+}
+
+#tempValue{
+
+}
+
+.toHeading{
+	text-align: center;
+    font-size: 16px;
+}
+
+#tempToHeader{
+	text-align: center;
+    font-size: 16px;
+}
+
+#tempTo{
+	text-align: center;
+    font-size: 16px;
+}
+
+#calculate{
+	text-align: center;
+    font-size: 20px;
+}
+
+#message{
+	text-align: center;
+    font-size: 20px;
+}
+
+.button{
+	text-align: center;
+}
+
+.homeOptions{
+	position: relative;
+    bottom: -100px;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    border-color: black;
+    border: 1px;
+}
+
+a:visited, a:link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    border-color: black;
+}
+
+a:hover, a:active{
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:14px 25px;
+    border-color:black;
+
 }
