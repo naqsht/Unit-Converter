@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Temperature Converter</title>
-        <link rel="stylesheet" href="temperature-style.css">
+        <link rel="stylesheet" href="css/temperature-style.css">
     </head>
 
 
@@ -40,21 +40,22 @@
                         <option value="fahrenheit">Fahrenheit</option>
                         <option value="kelvin">Kelvin</option>
                     </select>
+
+                    <output name="tempOutput" for="tempInput" id="message"></output>
                 </div>
             </article>
             
             <button type="button" id="calculate" onclick="result=temperature_converter();">Calculate</button>
-            <p id="message"></p>
             
 
         </section>
 
-        <ul class="homeOptions">
+        <ul class="thomeOptions">
             <li><a href="homepage.html" id="homeLink">Home</a></li><br>
             <li><a href="length.html" id="lengthLink">Length</a></li><br>
             <li><a href="weight.html" id="weightLink">Weight</a></li>
         </ul>
     </body>
-    <script src="temperature-convert.js"></script>
+    <script src="js/temperature-convert.js"></script>
 
 </html>

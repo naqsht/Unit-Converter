@@ -2,16 +2,13 @@
 <html>
     <head>
         <title>Length Converter</title>
-        <link rel="stylesheet" href="length-style.css">
+        <link rel="stylesheet" href="css/length-style.css">
     </head>
 
-
-    <body>
-        
+    <body>        
 
         <header class="mainHeader">
-            <h1>Unit Converter</h1>
-        </header>
+            <h1>Unit Converter</h1>        </header>
         <header class="lengthHeader">
             <h2>Length</h2>
         </header>
@@ -32,10 +29,7 @@
                     </select>
                     
                     <input type="number" name="lengthInput" id="lengthValue">
-                    
-                    
-
-                </div>        
+                         
             </article>
 
             <article class="toHeading">
@@ -50,24 +44,25 @@
                         <option value="yard">Yard</option>
                         <option value="mile">Mile</option>
                     </select>
+                    
+                    <output name="lengthOutput" for="lengthInput" id="message"></output>
                 </div>
             </article>
+
             
             <button type="button" id="calculate" onclick="length_converter();">Calculate</button>
-            <div class="boxed">
-                <p id="message"></p>
-            </div>
+            
             
 
         </section>
 
-        <ul class="homeOptions">
+        <ul class="lhomeOptions">
             <li><a href="homepage.html" id="homeLink">Home</a></li><br>
             <li><a href="weight.html" id="weightLink">Weight</a></li><br>
             <li><a href="temperature.html" id="tempLink">Temperature</a></li>
         </ul>
 
     </body>
-    <script src="length-convert.js"></script>
+    <script src="js/length-convert.js"></script>
 
 </html>

@@ -2,12 +2,10 @@
 <html>
     <head>
         <title>Weight Converter</title>
-        <link rel="stylesheet" href="weight-style.css">
+        <link rel="stylesheet" href="css/weight-style.css">
     </head>
 
-
     <body>
-        
 
         <header class="mainHeader">
             <h1>Unit Converter</h1>
@@ -19,7 +17,6 @@
         <section class="tofromDisplay">
             <article class="fromHeading">
                 
-
                     <label for="weightFrom" id="weightFromHeader">From</label>
 
                     <select id="weightFrom">
@@ -45,20 +42,23 @@
                         <option value="pound">Pound</option>
                         <option value="ounce">Ounce</option>
                     </select>
+
+                    <output name="result" for="weightValue" id="message"></output>
                 </div>
             </article>
             
+            
             <button type="button" id="calculate" onclick="result=weight_converter();">Calculate</button>
-            <p id="message"></p>
+            
             
 
         </section>
-        <ul class="homeOptions">
+        <ul class="whomeOptions">
             <li><a href="homepage.html" id="homeLink">Home</a></li>
             <li><a href="length.html" id="lengthLink">Length</a></li>
             <li><a href="temperature.html" id="tempLink">Temperature</a></li>
         </ul>
     </body>
-    <script src="weight-convert.js"></script>
+    <script src="js/weight-convert.js"></script>
 
 </html>

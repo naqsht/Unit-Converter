@@ -1,5 +1,5 @@
 body{
-    background-image: url('bg.jpg');
+    background-image: url('../images/bg.jpg');
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -20,12 +20,14 @@ body{
 
 
 .homeOptions{
+    position: fixed;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 40px;
     margin: 30px;
     border-color: black;
     border: 1px;
+    left: 520px;
 }
 
 a:visited, a:link{

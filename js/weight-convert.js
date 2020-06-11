@@ -1,4 +1,4 @@
-arrWeight =[1,0.001,Math.pow(10,-6),(9.8421)*(Math.pow(10,-7)),0.00220462,0.035274,null,null,null,null,1000,1,0.001,(9.84207)*(Math.pow(10,-4)),2.20462,35.274,null,null,null,null,Math.pow(10,6),1000,1,0.984207,2204.62,35274,null,null,null,null,(1.106)*(Math.pow(10,6)),1016.05,1.01605,1,2240,35840,null,null,null,null,453.592,0.453592,((4.53592)*Math.pow(10,-4)),((4.46429)*Math.pow(10,-4)),1,16,null,null,null,null,28.3495,0.0283495,((2.835)*Math.pow(10,-5)),((2.7902)*Math.pow(10,-5)),1]
+var arrWeight =[1,0.001,Math.pow(10,-6),(9.8421)*(Math.pow(10,-7)),0.00220462,0.035274,null,null,null,null,1000,1,0.001,(9.84207)*(Math.pow(10,-4)),2.20462,35.274,null,null,null,null,Math.pow(10,6),1000,1,0.984207,2204.62,35274,null,null,null,null,(1.106)*(Math.pow(10,6)),1016.05,1.01605,1,2240,35840,null,null,null,null,453.592,0.453592,((4.53592)*Math.pow(10,-4)),((4.46429)*Math.pow(10,-4)),1,16,null,null,null,null,28.3495,0.0283495,((2.835)*Math.pow(10,-5)),((2.7902)*Math.pow(10,-5)),1]
 
 function countDecimal(value) {
     if (Math.floor(value) !== value)

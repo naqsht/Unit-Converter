@@ -1,0 +1,107 @@
+body{
+    background-image: url('../images/bg.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainHeader{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+    padding: 3px;
+    background-color: cornsilk;
+}
+
+.weightHeader{
+    text-align: center;
+    font-size: 30px;
+}
+
+.whomeOptions{
+    position:fixed;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 45px;
+    margin-top: 80px;
+    border-color: black;
+    border: 1px;
+    left: 590px;
+    top: 450px;
+}
+
+a:visited, a:link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    border-color: black;
+}
+
+a:hover, a:active{
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:14px 25px;
+    border-color:black;
+
+}
+
+.tofromDisplay{
+    text-align: center;
+}
+
+#weightFromHeader{
+    font-size: 30px;
+    position: fixed;
+    left: 400px;
+    top: 290px;
+}
+
+#weightFrom{
+    font-size: 30px;
+    position: fixed;
+    left: 490px;
+    top: 290px;
+}
+
+#weightValue{
+    font-size: 30px;
+    position: fixed;
+    top: 290px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#weightToHeader{
+    font-size: 30px;
+    position: fixed;
+    left: 430px;
+    top: 350px;
+    
+}
+
+#weightTo{
+    font-size: 30px;
+    position: fixed;
+    left: 490px;
+    top: 350px;
+
+}
+
+#message{
+    font-size: 30px;
+    position: fixed;
+    top: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#calculate{
+    font-size: 20px;
+    position: fixed;
+    top: 430px;
+    left:700px;
+}
+
+
